@@ -5,7 +5,7 @@ echo "
 define('DB_NAME', '$DB_NAME');
 define('DB_USER', '$DB_USER');
 define('DB_PASSWORD', '$DB_PASSWORD');
-define('DB_HOST', '127.0.0.1:3306');
+define('DB_HOST', 'mysql');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
