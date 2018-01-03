@@ -20,9 +20,6 @@ RUN apk add nginx
 COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/nginx.default.conf /etc/nginx/conf.d/default.conf
 
-# Install MariaDB
-RUN apk add mariadb mariadb-client
-
 # Install Wordpress
 RUN wget https://wordpress.org/latest.tar.gz
 RUN tar -xzf latest.tar.gz -C /srv/
